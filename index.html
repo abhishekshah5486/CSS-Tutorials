@@ -9,32 +9,52 @@
         /* Internal CSS */
         h1 {
             /* color: red !important; */
-            color: red;
+            color: black;
+            /* border-style: solid;
+            border-color: red; */
+            /* border-width: 2px; */
+            /* border-radius: 10px;
+             */
+            border: solid blue 1px;
+            border-radius: 5px;
+            background-color: rgba(218, 88, 88, 0);
+            color: blue;
+            font-size: 20px;
+            width: 500px;
+            height: 100px;
         }
         p {
             color: red;
             font-size: 15px;
+            line-height: 30px;
         }
         #js {
             color: green;
         }
         #java {
-            color: yellow;
+            color: orange;
+            font-size: 20px;
+            font-weight: 900;
         }
         #mern {
-            color: greenyellow;
+            color: black;
+            font-style: italic;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        p.dev {
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1 style="color: blue;">Welcome to International Institute of Technology Hyderabad</h1>
+    <h1>Welcome to International Institute of Technology Hyderabad</h1>
     <!-- Inline CSS  -->
     <p>IHub-Data has been created as a Section 8 company that manages the Data Foundation, Research & Technology Development, Applied Research & Translation, HRD & Skill Development, Innovation & Start-ups, and the International Collaborations directly.
 
         The Hub helps coordinate, integrate, and amplify basic and applied research in broad Data-Driven Technologies as well as its dissemination and translation across the country.</p>
     
-    <p id="js">Javascript Developer</p>
-    <p id="java">Java Developer</p>
+    <p id="js" class="dev">Javascript Developer</p>
+    <p id="java" class="dev">Java Developer</p>
     <p id="mern">MERN Developer</p>
     <p id="django">Django Developer</p>
 </body>
