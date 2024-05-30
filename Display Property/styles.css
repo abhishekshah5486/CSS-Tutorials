@@ -13,17 +13,22 @@ div {
     height: 100px;
     width: 200px;
     padding: 20px;
-    display: inline;
+    display: block;
 }
 
-.box {
 
-}
+/* span {
+    border: 1px solid blue;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    display: block;
+} */
 
 span {
     border: 1px solid blue;
     height: 200px;
     width: 200px;
     padding: 20px;
-    display: block;
+    display: inline-block;
 }
